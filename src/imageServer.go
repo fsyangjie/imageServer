@@ -29,8 +29,6 @@ func main() {
 					res.Write([]byte("error"))
 					return
 				}
-				//			max := srcimage.Bounds().Max;
-				log.Println(srcimage.Bounds())
 
 				w, _ := strconv.Atoi(req.FormValue("w"));
 				h, _ := strconv.Atoi(req.FormValue("h"));
