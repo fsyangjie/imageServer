@@ -3,7 +3,6 @@ package main
 import (
 	"net/http"
 	"github.com/codegangsta/martini"
-	"log"
 	"github.com/disintegration/imaging"
 	"strconv"
 	"image"
